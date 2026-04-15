@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Menu Labels Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: Menu Labels
+  m_TableCollectionNameGuidString: 293b23d6cf547b84685d601d631c30ec
+  m_Entries:
+  - m_Id: 65773486080
+    m_Key: MainMenu.Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281377488896
+    m_Key: MainMenu.Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288730103808
+    m_Key: MainMenu.Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357906759680
+    m_Key: MainMenu.Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 922858536960
+    m_Key: MainMenu.Settings.Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1071655665664
+    m_Key: MainMenu.Settings.Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1165775847424
+    m_Key: MainMenu.Settings.Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239574626304
+    m_Key: MainMenu.Settings.TextSpeed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2977195081728
+    m_Key: MainMenu.Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3075832528896
+    m_Key: MainMenu.Settings.Aply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463216235233280
+    m_Key: Gameplay.TapToContinue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1811893709160448
+    m_Key: Gameplay.Warmth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1812095593594880
+    m_Key: Gameplay.Relaxation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1812098072428544
+    m_Key: Gameplay.Sharpness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1812230323027968
+    m_Key: Gameplay.Density
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22139548987801600
+    m_Key: Gameplay.GameOver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22149650335645696
+    m_Key: Gameplay.Score
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8779858837400191305
+  references:
+    version: 2
+    RefIds:
+    - rid: 8779858837400191305
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1767623622732

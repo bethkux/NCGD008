@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Ingredients Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: Ingredients
+  m_TableCollectionNameGuidString: fea528168fdbfbc498ab973f73dfc978
+  m_Entries:
+  - m_Id: 472608391168
+    m_Key: Ingredients.FireSeed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 658428641280
+    m_Key: Ingredients.HeatedResin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 748585205760
+    m_Key: Ingredients.CharredRoot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 902256115712
+    m_Key: Ingredients.ValerianRoot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1172574814208
+    m_Key: 'Ingredients.PoppySeeds
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1243454357504
+    m_Key: Ingredients.SoftGrainMash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394793234432
+    m_Key: Ingredients.BitterSalt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1434748174336
+    m_Key: Ingredients.SourBark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1459595231232
+    m_Key: Ingredients.Bitterleaf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1576935079936
+    m_Key: Ingredients.RawHoney
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1696791511040
+    m_Key: Ingredients.BoiledSyrup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1710536245248
+    m_Key: Ingredients.PlantGum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1792551665664
+    m_Key: Ingredients.ClearWater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1848923111424
+    m_Key: Ingredients.ThinBroth
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8779858971761574028
+  references:
+    version: 2
+    RefIds:
+    - rid: 8779858971761574028
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1768055966231

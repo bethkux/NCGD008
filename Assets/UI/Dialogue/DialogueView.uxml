@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="dialogue-root" class="dialogue-root" style="position: relative; bottom: -79%; left: 2%; color: rgb(80, 4, 4); width: 787px; display: none; visibility: visible;">
+        <ui:Label name="dialogue-txt" text="&#10;" style="font-size: 40px; background-color: rgba(0, 0, 0, 0.77); width: 758px; background-size: contain; background-position-x: center; border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; border-top-width: 15px; border-right-width: 15px; border-bottom-width: 15px; border-left-width: 15px; flex-basis: auto; flex-wrap: wrap; -unity-background-scale-mode: scale-to-fit; flex-shrink: initial; flex-grow: initial; white-space: normal; text-overflow: clip; opacity: 1; display: flex; visibility: visible; overflow: visible; min-width: 100%; color: rgb(194, 194, 194); -unity-font-definition: url(&quot;project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-SemiBold.ttf?fileID=12800000&amp;guid=570fe6419f547384f8d5c0483c0daea2&amp;type=3#PixelifySans-SemiBold&quot;); -unity-font-style: normal;" />
+        <ui:VisualElement name="continue-hint" class="continue-hint" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-Regular.ttf?fileID=12800000&amp;guid=41195ccf7c25d59499d1d872e436eb59&amp;type=3#PixelifySans-Regular&quot;); color: rgb(255, 255, 255); visibility: visible; display: flex;">
+            <ui:Label text="&gt; Tap to continue" style="font-size: 24px; -unity-font-style: bold;">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(463216235233280)" />
+                </Bindings>
+            </ui:Label>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

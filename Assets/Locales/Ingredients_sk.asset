@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Ingredients_sk
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: sk
+  m_SharedData: {fileID: 11400000, guid: fea528168fdbfbc498ab973f73dfc978, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 472608391168
+    m_Localized: "Ohniv\xE9 semieko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 902256115712
+    m_Localized: "Kore\u0148 valeri\xE1ny"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1172574814208
+    m_Localized: "Makov\xE9 semienka"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 748585205760
+    m_Localized: "Zuhelnatel\xFD kore\u0148"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394793234432
+    m_Localized: "Hork\xE1 so\u013E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1459595231232
+    m_Localized: List vernonie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1434748174336
+    m_Localized: "Kysl\xE1 k\xF4ra"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1576935079936
+    m_Localized: "Surov\xFD med"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1696791511040
+    m_Localized: "Varen\xFD sirup"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1792551665664
+    m_Localized: "\u010Cist\xE1 voda"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1848923111424
+    m_Localized: "Riedky v\xFDvar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1710536245248
+    m_Localized: "Rastlinn\xE1 guma"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1243454357504
+    m_Localized: "M\xE4kk\xE1 obiln\xE1 ka\u0161a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 658428641280
+    m_Localized: "Vyhrievan\xE1 \u017Eivica"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

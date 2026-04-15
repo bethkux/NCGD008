@@ -1,0 +1,112 @@
+.Quality {
+    -unity-font-definition: url("project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-Regular.ttf?fileID=12800000&guid=41195ccf7c25d59499d1d872e436eb59&type=3#PixelifySans-Regular");
+    font-size: 32px;
+    color: rgb(80, 81, 99);
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-right: 80px;
+    -unity-font-style: normal;
+}
+
+.two-buttons {
+    margin-right: 30px;
+    width: 189px;
+    margin-left: 30px;
+    height: 64px;
+    -unity-font-definition: url("project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-Bold.ttf?fileID=12800000&guid=fcd9b30524d461846b762e69898d32fb&type=3#PixelifySans-Bold");
+    font-size: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgb(141, 193, 208);
+}
+
+.two-buttons:hover {
+    transition-timing-function: ease-out;
+    scale: 1.1 1.1;
+    transition-duration: 0.25s;
+}
+
+.row-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1px;
+}
+
+.qualities-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    width: 100%;
+    top: -5%;
+    left: 70px;
+}
+
+.ingredient-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    width: 0%;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 3px;
+    background-image: resource('Sprites/Ingredients/shelf');
+}
+
+.quality-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 48%;
+    padding-left: 0;
+    top: -10px;
+}
+
+.quality-icon {
+    width: 30%;
+    height: 94%;
+    position: relative;
+    background-size: 145% 100%;
+    background-image: none;
+}
+
+.quality-icon Image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.quality-icon .preview {
+    opacity: 0;
+}
+
+.Ingedient-btn {
+    background-color: rgba(255, 255, 255, 0);
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 4px;
+    color: rgba(255, 255, 255, 0);
+}
+
+.Ingedient-btn:hover {
+    transition-timing-function: ease-out;
+    scale: 1.2 1.2;
+    transition-duration: 0.25s;
+}
+
+.name-label {
+    text-shadow: 1px 1px 10px rgb(10, 33, 38);
+    font-size: 28px;
+    -unity-font-definition: url("project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-SemiBold.ttf?fileID=12800000&guid=570fe6419f547384f8d5c0483c0daea2&type=3#PixelifySans-SemiBold");
+    -unity-text-outline-width: 1.3px;
+    color: rgb(213, 213, 213);
+    white-space: pre-wrap;
+    -unity-font-style: bold;
+    -unity-text-outline-color: rgb(10, 33, 38);
+}

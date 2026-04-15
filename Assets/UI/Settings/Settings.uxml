@@ -1,0 +1,50 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=1814804f23534eb49b22104966ccd46b&amp;type=3#MainMenu" />
+    <Style src="project://database/Assets/UI/Settings/Settings.uss?fileID=7433441132597879392&amp;guid=e59f52273185da44186e155956ad9a45&amp;type=3#Settings" />
+    <ui:VisualElement name="background" style="flex-grow: 1; background-color: rgba(45, 101, 115, 0);">
+        <ui:VisualElement name="root" style="width: 100%; height: 100%;">
+            <ui:VisualElement name="main-panel" style="width: 704px;">
+                <ui:Label text="Settings" name="Settings" class="title" style="font-size: 100px; margin-bottom: 20px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Jacquard_24/Jacquard24-Regular.ttf?fileID=12800000&amp;guid=cf5b2510cb4f0a14eaaa2acb65cf41fe&amp;type=3#Jacquard24-Regular&quot;); -unity-font-style: normal; align-items: auto; white-space: nowrap; -unity-text-align: upper-center; color: rgb(153, 219, 252);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(281377488896)" />
+                    </Bindings>
+                </ui:Label>
+                <ui:Label text="Language" name="Language" class="LabelTxt" style="margin-bottom: 5px;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(922858536960)" />
+                    </Bindings>
+                </ui:Label>
+                <ui:DropdownField name="language-dropdown" style="margin-bottom: 15px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-Regular.ttf?fileID=12800000&amp;guid=41195ccf7c25d59499d1d872e436eb59&amp;type=3#PixelifySans-Regular&quot;); font-size: 28px; -unity-text-outline-color: rgb(0, 0, 0); height: 55px;" />
+                <ui:Label text="Sound" name="Sound" class="LabelTxt" style="margin-bottom: 5px;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(1165775847424)" />
+                    </Bindings>
+                </ui:Label>
+                <ui:Slider name="sfx-volume" low-value="0" high-value="1" value="0.5" style="margin-bottom: 15px;" />
+                <ui:Label text="Music" name="Music" class="LabelTxt" style="margin-bottom: 5px;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(1071655665664)" />
+                    </Bindings>
+                </ui:Label>
+                <ui:Slider name="music-volume" low-value="0" high-value="1" value="0.5" style="margin-bottom: 5px;" />
+                <ui:Toggle name="fullscreen-toggle" label="Fullscreen" class="LabelTxt" style="margin-bottom: 15px; justify-content: flex-start; align-items: stretch; align-content: auto;" />
+                <ui:Label text="Text Speed" name="TextSpeed" class="LabelTxt" style="margin-bottom: 5px;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(1239574626304)" />
+                    </Bindings>
+                </ui:Label>
+                <ui:Slider name="text-speed" low-value="0.1" high-value="0" value="0.05" style="margin-bottom: 15px;" />
+                <ui:Button name="apply-btn" text="Apply" class="SettingsBtn" style="margin-bottom: 5px; font-size: 30px;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(3075832528896)" />
+                    </Bindings>
+                </ui:Button>
+                <ui:Button name="back-btn" text="Back" class="SettingsBtn" style="font-size: 30px;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(2977195081728)" />
+                    </Bindings>
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

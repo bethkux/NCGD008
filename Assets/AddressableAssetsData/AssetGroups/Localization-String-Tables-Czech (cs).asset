@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Czech (cs)
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Localization-String-Tables-Czech (cs)
+  m_GUID: 0c6a521bfcdd03c4a8c3c19e3ed4cef5
+  m_SerializeEntries:
+  - m_GUID: 239726f9f0b05d6479a858db00fcd372
+    m_Address: DialogueTemplate_cs
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-cs
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 810006b101b9a2544b42df96ec364e09
+    m_Address: Menu Labels_cs
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-cs
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fddd92304ccbe34993d7f3d1dacd445
+    m_Address: Ingredients_cs
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-cs
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3ff9fd49cb8b8c4f9f61040b53aa7f6
+    m_Address: Qualities_cs
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-cs
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: dde7917f591c485448671cb635e30553, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f6d81ba8a3313c9429aba79c8d9e5e9f, type: 2}
+    - {fileID: 11400000, guid: 5b021f9a6d0dbdb4f81d69e1a4e4816c, type: 2}

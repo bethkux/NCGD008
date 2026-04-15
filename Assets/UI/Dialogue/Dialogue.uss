@@ -1,0 +1,37 @@
+.dialogue-root {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    justify-content: flex-end;
+}
+
+.bubble-container {
+    flex-grow: 1;
+}
+
+.bubble {
+    max-width: 80%;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 18px;
+    -unity-font-style: normal;
+}
+
+.bubble.npc {
+    align-self: flex-start;
+    background-color: #2f2f38;
+    color: white;
+}
+
+.bubble.player {
+    align-self: flex-end;
+    background-color: #4a6aff;
+    color: white;
+}
+
+.continue-hint {
+    opacity: 0.5;
+    align-self: center;
+    margin-top: 6px;
+}

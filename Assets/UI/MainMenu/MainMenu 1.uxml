@@ -1,0 +1,30 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=1814804f23534eb49b22104966ccd46b&amp;type=3#MainMenu" />
+    <ui:VisualElement name="background" style="flex-grow: 1; background-color: rgba(45, 101, 115, 0);">
+        <ui:VisualElement name="root" style="width: 100%; height: 100%;">
+            <ui:VisualElement name="main-panel">
+                <ui:Label name="title" text="Verdant Brews" style="-unity-text-align: upper-center; font-size: 120px; -unity-font-style: normal; width: 780px; align-items: stretch; align-self: center; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Jacquard_24/Jacquard24-Regular.ttf?fileID=12800000&amp;guid=cf5b2510cb4f0a14eaaa2acb65cf41fe&amp;type=3#Jacquard24-Regular&quot;); color: rgb(153, 219, 252);" />
+                <ui:Button name="play-btn" text="Play" class="MainMenuBtn" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-Bold.ttf?fileID=12800000&amp;guid=fcd9b30524d461846b762e69898d32fb&amp;type=3#PixelifySans-Bold&quot;); font-size: 40px;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(65773486080)" />
+                    </Bindings>
+                </ui:Button>
+                <ui:Button name="settings-btn" text="Settings" class="MainMenuBtn" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-Bold.ttf?fileID=12800000&amp;guid=fcd9b30524d461846b762e69898d32fb&amp;type=3#PixelifySans-Bold&quot;); font-size: 40px;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(281377488896)" />
+                    </Bindings>
+                </ui:Button>
+                <ui:Button name="credits-btn" text="Credits" class="MainMenuBtn" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-Bold.ttf?fileID=12800000&amp;guid=fcd9b30524d461846b762e69898d32fb&amp;type=3#PixelifySans-Bold&quot;); font-size: 40px;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(288730103808)" />
+                    </Bindings>
+                </ui:Button>
+                <ui:Button name="quit-btn" text="Quit" class="MainMenuBtn" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-Bold.ttf?fileID=12800000&amp;guid=fcd9b30524d461846b762e69898d32fb&amp;type=3#PixelifySans-Bold&quot;); font-size: 40px;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(357906759680)" />
+                    </Bindings>
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

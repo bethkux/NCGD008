@@ -1,0 +1,32 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=1814804f23534eb49b22104966ccd46b&amp;type=3#MainMenu" />
+    <ui:VisualElement name="background" style="flex-grow: 1; background-color: rgb(14, 21, 32); display: none;">
+        <ui:VisualElement name="root" style="width: 100%; height: 100%;">
+            <ui:VisualElement name="resume-panel">
+                <ui:Label text="Game Over" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Jacquard_24/Jacquard24-Regular.ttf?fileID=12800000&amp;guid=cf5b2510cb4f0a14eaaa2acb65cf41fe&amp;type=3#Jacquard24-Regular&quot;); font-size: 110px; color: rgb(140, 206, 228);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(22139548987801600)" />
+                    </Bindings>
+                </ui:Label>
+                <ui:VisualElement class="row-container" style="flex-grow: 1; -unity-text-align: upper-center; align-self: center;">
+                    <ui:Label text="Label" style="color: rgb(97, 164, 188); font-size: 50px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-Regular.ttf?fileID=12800000&amp;guid=41195ccf7c25d59499d1d872e436eb59&amp;type=3#PixelifySans-Regular&quot;); -unity-text-align: upper-center; align-self: center; align-items: center; -unity-font-style: bold;">
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(22149650335645696)" />
+                        </Bindings>
+                    </ui:Label>
+                    <ui:Label text="0" name="Score" style="color: rgb(97, 164, 188); font-size: 50px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-Regular.ttf?fileID=12800000&amp;guid=41195ccf7c25d59499d1d872e436eb59&amp;type=3#PixelifySans-Regular&quot;); align-items: center; align-self: center; margin-left: 20px; -unity-font-style: bold;" />
+                </ui:VisualElement>
+                <ui:Button name="resume-btn" text="Play" class="MainMenuBtn">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(65773486080)" />
+                    </Bindings>
+                </ui:Button>
+                <ui:Button name="quit-btn" text="Quit" class="MainMenuBtn">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(357906759680)" />
+                    </Bindings>
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

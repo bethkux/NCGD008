@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: DialogueTemplate Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: DialogueTemplate
+  m_TableCollectionNameGuidString: 2948a29d3fc59ab41a058d61837e9217
+  m_Entries:
+  - m_Id: 17635459072
+    m_Key: Dialogue.request_single
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54956376064
+    m_Key: Dialogue.request_double
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58253099008
+    m_Key: Dialogue.request_triple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109624934400
+    m_Key: Dialogue.request_quadruple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1077791932416
+    m_Key: Dialogue.greeting1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1309636280320
+    m_Key: Dialogue.greeting2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1416146436096
+    m_Key: Dialogue.greeting3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 449626669301760
+    m_Key: Dialogue.dontwant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 449905288527872
+    m_Key: Dialogue.want
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19914063176253440
+    m_Key: Dialogue.request_none
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8779858995123322880
+  references:
+    version: 2
+    RefIds:
+    - rid: 8779858995123322880
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1768139030428

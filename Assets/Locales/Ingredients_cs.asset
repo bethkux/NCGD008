@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Ingredients_cs
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: cs
+  m_SharedData: {fileID: 11400000, guid: fea528168fdbfbc498ab973f73dfc978, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 472608391168
+    m_Localized: "Ohniv\xE9 sem\xEDnko"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 902256115712
+    m_Localized: "Ko\u0159en kozl\xEDku "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1172574814208
+    m_Localized: "M\xE1k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 748585205760
+    m_Localized: "Zuhelnat\u011Bl\xFD ko\u0159en"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1394793234432
+    m_Localized: "Ho\u0159k\xE1 s\u016Fl"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1459595231232
+    m_Localized: List vernonie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1434748174336
+    m_Localized: "Kysel\xE1 k\u016Fra"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1576935079936
+    m_Localized: "Syrov\xFD med"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1696791511040
+    m_Localized: "Va\u0159en\xFD sirup"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1792551665664
+    m_Localized: "\u010Cist\xE1 voda"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1848923111424
+    m_Localized: "\u0158\xEDdk\xFD v\xFDvar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1710536245248
+    m_Localized: "Rostlinn\xE1 guma"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1243454357504
+    m_Localized: "M\u011Bkk\xE1 obiln\xE1 ka\u0161e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 658428641280
+    m_Localized: "Vyh\u0159\xEDvan\xE1 prysky\u0159ice"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

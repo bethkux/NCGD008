@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Menu Labels_sk
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: sk
+  m_SharedData: {fileID: 11400000, guid: 293b23d6cf547b84685d601d631c30ec, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 357906759680
+    m_Localized: "Ukon\u010Di\u0165"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288730103808
+    m_Localized: Titulky
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281377488896
+    m_Localized: Nastavenie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65773486080
+    m_Localized: "Hra\u0165"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 922858536960
+    m_Localized: Jazyk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1071655665664
+    m_Localized: Hudba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1165775847424
+    m_Localized: Zvuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239574626304
+    m_Localized: "R\xFDchlos\u0165 textu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2977195081728
+    m_Localized: "Sp\xE4\u0165"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3075832528896
+    m_Localized: "Aplikova\u0165"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463216235233280
+    m_Localized: "> Pokra\u010Dujte klepnut\xEDm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1812098072428544
+    m_Localized: "P\xE1livos\u0165"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1812230323027968
+    m_Localized: Hustota
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1812095593594880
+    m_Localized: Uvolnenie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1811893709160448
+    m_Localized: Teplota
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22139548987801600
+    m_Localized: Koniec Hry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22149650335645696
+    m_Localized: "Sk\xF3re:"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

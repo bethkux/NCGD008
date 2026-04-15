@@ -1,0 +1,19 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=1814804f23534eb49b22104966ccd46b&amp;type=3#MainMenu" />
+    <ui:VisualElement name="background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.71); display: none;">
+        <ui:VisualElement name="root" style="width: 100%; height: 100%;">
+            <ui:VisualElement name="resume-panel">
+                <ui:Button name="resume-btn" text="Play" class="MainMenuBtn">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(65773486080)" />
+                    </Bindings>
+                </ui:Button>
+                <ui:Button name="quit-btn" text="Quit" class="MainMenuBtn">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(357906759680)" />
+                    </Bindings>
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,16 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Timer/Timer.uss?fileID=7433441132597879392&amp;guid=23f02425f7ffe7442b9ec5dcf36ef1cf&amp;type=3#Timer" />
+    <Style src="project://database/Assets/UI/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=1814804f23534eb49b22104966ccd46b&amp;type=3#MainMenu" />
+    <ui:VisualElement name="root2" style="flex-grow: 1;">
+        <ui:Button name="Pause" style="align-self: flex-start; left: 3%; top: 5%; background-image: resource(&apos;Sprites/pause&apos;); -unity-background-scale-mode: scale-to-fit; height: 80px; background-color: rgba(188, 188, 188, 0.79); width: 80px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px;" />
+        <ui:Label text="00:60" name="TimerLabel" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Jacquard_24/Jacquard24-Regular.ttf?fileID=12800000&amp;guid=cf5b2510cb4f0a14eaaa2acb65cf41fe&amp;type=3#Jacquard24-Regular&quot;); font-size: 85px; -unity-font-style: normal; align-items: stretch; align-self: center; left: -27%; top: -40px; color: rgb(183, 219, 237); width: 192px; -unity-text-align: upper-center;" />
+        <ui:VisualElement class="row-container" style="flex-grow: 1; width: 100%; align-self: flex-start; justify-content: center; align-content: center; align-items: flex-start; flex-direction: row;">
+            <ui:Label text="Score:" style="font-size: 40px; align-self: center; left: -27%; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-Medium.ttf?fileID=12800000&amp;guid=9df395f65a05d464685dc4ddf29164e9&amp;type=3#PixelifySans-Medium&quot;); color: rgb(183, 219, 237); margin-top: 0; top: -50%;">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(22149650335645696)" />
+                </Bindings>
+            </ui:Label>
+            <ui:Label text="0" name="Score" style="font-size: 40px; align-self: center; left: -27%; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Pixelify_Sans/static/PixelifySans-Medium.ttf?fileID=12800000&amp;guid=9df395f65a05d464685dc4ddf29164e9&amp;type=3#PixelifySans-Medium&quot;); color: rgb(183, 219, 237); margin-top: 0; top: -50%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

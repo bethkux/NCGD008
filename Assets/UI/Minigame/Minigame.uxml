@@ -1,0 +1,225 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/Minigame/Minigame.uss?fileID=7433441132597879392&amp;guid=93eaf80cafa616b43a378e96bb40729a&amp;type=3#Minigame" />
+    <ui:VisualElement name="root" style="flex-grow: 1; background-color: rgb(37, 67, 74); background-size: 100% 100%; width: 55%; right: auto; left: 0%; bottom: auto; position: relative; top: 0; align-items: stretch; align-self: flex-end;">
+        <ui:VisualElement name="Ingredients1" class="ingredient-row" style="flex-grow: 1; width: 100%; height: 200px; align-items: flex-end; justify-content: center; align-self: flex-start; align-content: flex-start; position: relative; background-size: 100% 100%; -unity-text-align: upper-left; margin-bottom: 0;">
+            <ui:Button text="Fire Seed" name="Ing1" data-source="project://database/Assets/Resources/IngredientData/Fire%20Seed.asset?fileID=11400000&amp;guid=a1f2c000077e8e84d870a948b189b944&amp;type=2#Fire Seed" class="Ingedient-btn" style="-unity-text-align: middle-center; white-space: nowrap; background-image: resource(&apos;Sprites/Ingredients/fire_seed&apos;); top: 0%; left: 0%; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible;">
+                <ui:Label text="Label" class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(472608391168)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(472608391168)" />
+                </Bindings>
+            </ui:Button>
+            <ui:Button text="Soft Grain Mash" name="Ing6" data-source="project://database/Assets/Resources/IngredientData/Soft%20Grain%20Mash.asset?fileID=11400000&amp;guid=4d208fbbcbb357c41a0db47cf130e766&amp;type=2#Soft Grain Mash" class="Ingedient-btn" style="left: 0%; top: 0%; background-image: resource(&apos;Sprites/Ingredients/soft_grain_mash&apos;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible;">
+                <ui:Label text="Label" class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1243454357504)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1243454357504)" />
+                </Bindings>
+            </ui:Button>
+            <ui:Button text="Bitter Salt" name="Ing8" data-source="project://database/Assets/Resources/IngredientData/Bitter%20Salt.asset?fileID=11400000&amp;guid=639f984c63894f54ea45262f077a1f2e&amp;type=2#Bitter Salt" class="Ingedient-btn" style="left: 0%; top: 0%; background-image: resource(&apos;Sprites/Ingredients/bitter_salt&apos;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible;">
+                <ui:Label text="Label" class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1394793234432)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1394793234432)" />
+                </Bindings>
+            </ui:Button>
+            <ui:Button text="Plant Gum" name="Ing13" data-source="project://database/Assets/Resources/IngredientData/Plant%20Gum.asset?fileID=11400000&amp;guid=466b790225acea746a5dec64fd5a0ae5&amp;type=2#Plant Gum" class="Ingedient-btn" style="left: 0%; top: 0%; background-image: resource(&apos;Sprites/Ingredients/plant_gum&apos;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible;">
+                <ui:Label text="Label" class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1710536245248)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1710536245248)" />
+                </Bindings>
+            </ui:Button>
+            <ui:Button text="Thin Broth" name="Ing9" data-source="project://database/Assets/Resources/IngredientData/Thin%20Broth.asset?fileID=11400000&amp;guid=af5bcec7bc9950d49b5bee3db295992a&amp;type=2#Thin Broth" class="Ingedient-btn" style="left: 0%; top: 0; background-image: resource(&apos;Sprites/Ingredients/thin_broth&apos;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible;">
+                <ui:Label text="Label" class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1848923111424)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1848923111424)" />
+                </Bindings>
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="Ingredients2" class="ingredient-row" style="flex-grow: 1; width: 100%; height: 200px; align-items: flex-end; justify-content: center; align-self: flex-start; align-content: flex-start; position: relative; margin-bottom: 0;">
+            <ui:Button text="Heated Resin" name="Ing2" data-source="project://database/Assets/Resources/IngredientData/Heated%20Resin.asset?fileID=11400000&amp;guid=44efce960b59f4e4eab13207cab93054&amp;type=2#Heated Resin" class="Ingedient-btn" style="top: 0%; left: 0%; background-image: resource(&apos;Sprites/Ingredients/heated_resin&apos;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible;">
+                <ui:Label class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(658428641280)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(658428641280)" />
+                </Bindings>
+            </ui:Button>
+            <ui:Button text="Raw Honey" name="Ing11" data-source="project://database/Assets/Resources/IngredientData/Raw%20Honey.asset?fileID=11400000&amp;guid=dab702c9b38f5c444a61771be44fc85d&amp;type=2#Raw Honey" class="Ingedient-btn" style="left: 0%; top: 0%; background-image: resource(&apos;Sprites/Ingredients/raw honey&apos;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible;">
+                <ui:Label text="Label" class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1576935079936)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1576935079936)" />
+                </Bindings>
+            </ui:Button>
+            <ui:Button text="Clear Water" name="Ing14" data-source="project://database/Assets/Resources/IngredientData/Clear%20Water.asset?fileID=11400000&amp;guid=b893665d2b33db343916a5fbe72cecb7&amp;type=2#Clear Water" class="Ingedient-btn" style="left: 0%; top: 0%; background-image: resource(&apos;Sprites/Ingredients/clear_water&apos;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible;">
+                <ui:Label text="Label" class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1792551665664)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1792551665664)" />
+                </Bindings>
+            </ui:Button>
+            <ui:Button text="Boiled Syrup" name="Ing12" data-source="project://database/Assets/Resources/IngredientData/Boiled%20Syrup.asset?fileID=11400000&amp;guid=8f1ee80aa7b5fb24d87f979ee6fd5147&amp;type=2#Boiled Syrup" class="Ingedient-btn" style="left: 0%; top: 0%; background-image: resource(&apos;Sprites/Ingredients/boiled_syrup&apos;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible;">
+                <ui:Label text="Label" class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1696791511040)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1696791511040)" />
+                </Bindings>
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="Ingredients3" class="ingredient-row" style="flex-grow: 1; width: 100%; height: 230px; align-items: flex-end; justify-content: center; align-self: flex-start; align-content: flex-start; position: relative; margin-bottom: 0;">
+            <ui:Button text="Bitterleaf" name="Ing10" data-source="project://database/Assets/Resources/IngredientData/Bitterleaf.asset?fileID=11400000&amp;guid=9354afa0637a3104bbc344b4f6a2c7c9&amp;type=2#Bitterleaf" class="Ingedient-btn" style="left: 0%; top: 0%; background-image: resource(&apos;Sprites/Ingredients/bitterleaf&apos;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible;">
+                <ui:Label text="Label" class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1459595231232)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1459595231232)" />
+                </Bindings>
+            </ui:Button>
+            <ui:Button text="Poppy Seeds" name="Ing5" data-source="project://database/Assets/Resources/IngredientData/Poppy%20Seeds.asset?fileID=11400000&amp;guid=5961139cf7b3f0b43accea542148b2c2&amp;type=2#Poppy Seeds" class="Ingedient-btn" style="-unity-text-align: middle-center; white-space: nowrap; background-image: resource(&apos;Sprites/Ingredients/poppy_seeds&apos;); top: 0%; left: 0%; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible;">
+                <ui:Label text="Label" class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1172574814208)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1172574814208)" />
+                </Bindings>
+            </ui:Button>
+            <ui:Button text="Charred root" name="Ing3" data-source="project://database/Assets/Resources/IngredientData/Charred%20Root.asset?fileID=11400000&amp;guid=09ef685620d360743a0ea5aae2d54f88&amp;type=2#Charred Root" class="Ingedient-btn" style="top: 0%; left: 0%; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; background-image: resource(&apos;Sprites/Ingredients/fire_root&apos;); overflow: visible;">
+                <ui:Label text="Label" class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(748585205760)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(748585205760)" />
+                </Bindings>
+            </ui:Button>
+            <ui:Button text="Valerian Root" name="Ing4" data-source="project://database/Assets/Resources/IngredientData/Valerian%20Root.asset?fileID=11400000&amp;guid=a8421014b62a91a4eab9cd675f63557b&amp;type=2#Valerian Root" class="Ingedient-btn" style="top: 0%; left: 0%; background-image: resource(&apos;Sprites/Ingredients/valerian_root&apos;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible;">
+                <ui:Label text="Label" class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(902256115712)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(902256115712)" />
+                </Bindings>
+            </ui:Button>
+            <ui:Button text="Sour Bark" name="Ing7" data-source="project://database/Assets/Resources/IngredientData/Sour%20Bark.asset?fileID=11400000&amp;guid=cb44ee7de54c38945bd3b1eb41fb17e2&amp;type=2#Sour Bark" class="Ingedient-btn" style="left: 0%; top: 0%; background-image: resource(&apos;Sprites/Ingredients/sour_bark&apos;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible;">
+                <ui:Label text="Label" class="name-label" style="white-space: nowrap;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1434748174336)" />
+                    </Bindings>
+                </ui:Label>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:fea528168fdbfbc498ab973f73dfc978" entry="Id(1434748174336)" />
+                </Bindings>
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement class="quality-row" style="flex-grow: 1; top: 63px; justify-content: center; align-content: auto; align-self: center; width: 1008px;">
+            <ui:Button text="Button" name="accept" class="two-buttons" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:051fcfe01cfb2fe4982b8f58d51c38a3" entry="Id(19351240373157888)" />
+                </Bindings>
+            </ui:Button>
+            <ui:Button text="Button" name="reset" class="two-buttons" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; background-color: rgb(226, 156, 160);">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:051fcfe01cfb2fe4982b8f58d51c38a3" entry="Id(19351301253480448)" />
+                </Bindings>
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="Qualities" class="qualities-container" style="background-image: resource(&apos;Sprites/Counting/paper-short&apos;); height: 500px; width: 100%; left: 0; -unity-background-scale-mode: stretch-to-fill; top: 10%; background-size: 98% 100%;">
+            <ui:VisualElement style="flex-grow: 1; height: 228px; left: 145px; top: -35px;">
+                <ui:VisualElement name="First" class="quality-row" style="flex-grow: 1; margin-bottom: 0;">
+                    <ui:Label text="1." style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Jacquard_24/Jacquard24-Regular.ttf?fileID=12800000&amp;guid=cf5b2510cb4f0a14eaaa2acb65cf41fe&amp;type=3#Jacquard24-Regular&quot;); font-size: 54px; margin-right: 10px; padding-top: 0; padding-bottom: 0; margin-top: 0; margin-bottom: 0;" />
+                    <ui:Label name="FirstIng" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Jacquard_24/Jacquard24-Regular.ttf?fileID=12800000&amp;guid=cf5b2510cb4f0a14eaaa2acb65cf41fe&amp;type=3#Jacquard24-Regular&quot;); height: 50px; flex-wrap: wrap; -unity-text-align: upper-left; font-size: 48px; white-space: normal; width: 341px; word-spacing: 0; -unity-paragraph-spacing: 0; -unity-font-style: normal;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Second" class="quality-row" style="flex-grow: 1;">
+                    <ui:Label text="2." style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Jacquard_24/Jacquard24-Regular.ttf?fileID=12800000&amp;guid=cf5b2510cb4f0a14eaaa2acb65cf41fe&amp;type=3#Jacquard24-Regular&quot;); font-size: 54px; margin-right: 10px; padding-top: 0; padding-bottom: 0; margin-bottom: 0; margin-top: 0;" />
+                    <ui:Label name="SecondIng" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Jacquard_24/Jacquard24-Regular.ttf?fileID=12800000&amp;guid=cf5b2510cb4f0a14eaaa2acb65cf41fe&amp;type=3#Jacquard24-Regular&quot;); height: 50px; flex-wrap: wrap; -unity-text-align: upper-left; font-size: 48px; white-space: normal; width: 341px; word-spacing: 0; -unity-paragraph-spacing: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Third" class="quality-row" style="flex-grow: 1;">
+                    <ui:Label text="3." style="font-size: 54px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Jacquard_24/Jacquard24-Regular.ttf?fileID=12800000&amp;guid=cf5b2510cb4f0a14eaaa2acb65cf41fe&amp;type=3#Jacquard24-Regular&quot;); margin-right: 10px; margin-top: 0; padding-top: 0; margin-bottom: 0; padding-bottom: 0;" />
+                    <ui:Label name="ThirdIng" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Jacquard_24/Jacquard24-Regular.ttf?fileID=12800000&amp;guid=cf5b2510cb4f0a14eaaa2acb65cf41fe&amp;type=3#Jacquard24-Regular&quot;); height: 50px; flex-wrap: wrap; -unity-text-align: upper-left; font-size: 48px; white-space: normal; width: 341px; word-spacing: 0; -unity-paragraph-spacing: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; margin-left: 0%; padding-left: 0%; left: 0%; top: -29px;">
+                <ui:VisualElement class="quality-row" style="padding-top: 0; width: 75%;">
+                    <ui:Label text="Warmth" class="Quality">
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(1811893709160448)" />
+                        </Bindings>
+                    </ui:Label>
+                    <ui:VisualElement class="quality-icon" style="background-image: none; width: 30%;">
+                        <ui:Image name="WarmthCurrent" style="background-image: none; width: 100%; height: 100%;" />
+                        <ui:Image name="WarmthPreview" class="preview" style="width: 100%; height: 100%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="quality-row" style="padding-top: 0; width: 75%;">
+                    <ui:Label text="Relaxation" class="Quality">
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(1812095593594880)" />
+                        </Bindings>
+                    </ui:Label>
+                    <ui:VisualElement class="quality-icon">
+                        <ui:Image name="RelaxationCurrent" style="width: 100%; height: 100%;" />
+                        <ui:Image name="RelaxationPreview" class="preview" style="width: 100%; height: 100%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="quality-row" style="width: 75%;">
+                    <ui:Label text="Sharpness" class="Quality">
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(1812098072428544)" />
+                        </Bindings>
+                    </ui:Label>
+                    <ui:VisualElement class="quality-icon">
+                        <ui:Image name="SharpnessCurrent" style="width: 100%; height: 100%;" />
+                        <ui:Image name="SharpnessPreview" class="preview" style="width: 100%; height: 100%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="quality-row" style="width: 75%;">
+                    <ui:Label text="Heaviness" class="Quality">
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(1812230323027968)" />
+                        </Bindings>
+                    </ui:Label>
+                    <ui:VisualElement class="quality-icon">
+                        <ui:Image name="HeavinessCurrent" style="width: 100%; height: 100%;" />
+                        <ui:Image name="HeavinessPreview" class="preview" style="width: 100%; height: 100%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

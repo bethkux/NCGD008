@@ -1,0 +1,19 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="settings-root" style="flex-direction: column; width: 100%; height: 100%; padding: 20px; justify-content: flex-start; align-items: stretch;">
+        <ui:Label text="Settings" name="Settings" class="title" style="font-size: 32px; margin-bottom: 20px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(288730103808)" />
+            </Bindings>
+        </ui:Label>
+        <ui:Label text="Language" name="Language" style="margin-bottom: 5px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(922858536960)" />
+            </Bindings>
+        </ui:Label>
+        <ui:Button name="back-btn" text="Back" style="font-size: 20px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:293b23d6cf547b84685d601d631c30ec" entry="Id(2977195081728)" />
+            </Bindings>
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

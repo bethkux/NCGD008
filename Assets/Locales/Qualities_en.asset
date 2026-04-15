@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Qualities_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 051fcfe01cfb2fe4982b8f58d51c38a3, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 10098294784
+    m_Localized: very hot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180437368832
+    m_Localized: cold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40544747520
+    m_Localized: lukewarm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249995706368
+    m_Localized: a bit relaxing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212691566592
+    m_Localized: very relaxing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276264632320
+    m_Localized: not relaxing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 400961290240
+    m_Localized: gentle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299111006208
+    m_Localized: very spicy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379389984768
+    m_Localized: a bit sharp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410616578048
+    m_Localized: very thick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 495148580864
+    m_Localized: light
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464345612288
+    m_Localized: a bit dense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19351240373157888
+    m_Localized: Accept
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19351301253480448
+    m_Localized: Reset
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

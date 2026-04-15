@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: DialogueTemplate_sk
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: sk
+  m_SharedData: {fileID: 11400000, guid: 2948a29d3fc59ab41a058d61837e9217, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1077791932416
+    m_Localized: "Zdrav\xEDm v\xE1s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1416146436096
+    m_Localized: "Dobr\xE9 r\xE1no!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1309636280320
+    m_Localized: Ahoj, alchymista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17635459072
+    m_Localized: "H\u013Ead\xE1m nie\u010Do {0}."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54956376064
+    m_Localized: "Chcem nie\u010Do, \u010Do je {0} a {1}."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58253099008
+    m_Localized: "Potrebujem nie\u010Do {0}, {1} a {2}."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109624934400
+    m_Localized: "Pros\xEDm dajte mi nie\u010Do {0}, {1}, {2} a {3}."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 449626669301760
+    m_Localized: "\u010Co to je? To nechcem. Dovidenia."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 449905288527872
+    m_Localized: "\u010Eakujem ve\u013Emi pekne!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19914063176253440
+    m_Localized: "Chcem \u010Doko\u013Evek! Sta\u010D\xED vybra\u0165 tri ingrediencie
+      a klikn\xFA\u0165 na tla\u010D\xEDtko \"Prija\u0165\"!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

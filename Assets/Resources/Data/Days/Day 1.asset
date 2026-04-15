@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6680ea522595d9f428cbfd4b1af8391f, type: 3}
+  m_Name: Day 1
+  m_EditorClassIdentifier: Assembly-CSharp::DaySchedule
+  dayNumber: 1
+  visits:
+  - customer: {fileID: 11400000, guid: f956b8075d382064c8afdab7adb47f76, type: 2}
+    dialogue: {fileID: 11400000, guid: 586e65822743100438dd3736901e1763, type: 2}
+    requiresFlag: 0
+    requiredFlag: 
+    setsFlag: 0
+    flagToSet: 
+  - customer: {fileID: 11400000, guid: c29d11781f933db409d93b05f19e02b8, type: 2}
+    dialogue: {fileID: 11400000, guid: f66f8e9f537021740be285b71f840552, type: 2}
+    requiresFlag: 0
+    requiredFlag: 
+    setsFlag: 0
+    flagToSet: 
